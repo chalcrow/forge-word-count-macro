@@ -1,0 +1,11 @@
+modules:
+  macro:
+    - key: word-count-macro
+      function: main
+      title: word-count-macro
+      description: Displays unique word counts within a specified text
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/221be34a-3f5d-438c-8dc4-5bca6fe50cc7
